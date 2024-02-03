@@ -2,229 +2,171 @@
 <html lang= "en">
 
     <head>
-        <!--Comment-->
-        <!--Another comment for branching git tutorial-->
-        <style>
-            body {
-                color: white;
-                font-family: Helvetica, sans-serif;
-                background-image: url("images/background.avif");
-                background-repeat: repeat;
-            }
-
-            table, th, td {
-                border: 1px solid white;
-            }
-            
-
-            th, td {
-                text-align: center;
-                padding: 3px;
-            }
-            table {
-                border-spacing: 3px;
-            }
-
-            .cell1 {
-                background-color:#460000;   /*dark red*/
-            }
-
-            .cell2 {
-                background-color: #1D2E28; /*dark green*/
-            }
-
-            .cell3 {
-                background-color: #152238; /*dark blue*/
-            }
-
-            .cell4 {
-                background-color: #301934; /*dark purple*/
-            }
-            .cell5 {
-                background-color: #9d7600; /*dark orange*/
-            }
-
-            .center {
-                text-align: center;
-            }
-
-            .right {
-                float: right;
-            }
-
-            .hidden {
-                color: inherit;
-                text-decoration: none;
-            }
-            
-            .hidden:hover {
-                text-decoration: underline;
-            }
-
-            
-            
-        </style>
+        
+        <link rel="stylesheet" href="styles.css">
         <meta charset = "UTF-8">
         <title>About Eder</title>
-        <!-- I'm not sure if the instructions wanted it here or body so i am putting it in the body and commenting it here       <h1>Eder Sandoval</h1>-->
-        <!--Same with this  <img src="images/ederpic.JPG" alt="Picture of Me" class="right" height ="300" width="200">-->
+
     </head>
 
 
     <body>
-        <img src="images/ederpic.JPG" alt="Picture of Me" class="right" height ="300" width="200">
-        <h1>Eder Sandoval</h1>
+        <div class="container">
+            <h1><span class="special">Eder Sandoval</span></h1>
+            <img src="images/eder.jpg" alt="Picture of Me" class="right">
+            <section>
+                <h2>Personal Info</h2>
+                <ul>
+                    <li><strong>Major:</strong> Software Engineering</li>
+                    <li><strong>High School:</strong> Riverton High, Riverton Utah. 2022</li>
+                    <li><strong>Current year at UVU:</strong> Sophomore</li>
+                    <li><strong>Favorite ice cream:</strong> Coffee</li>
+                </ul>
 
-        <section>
-            <h2>Personal Info</h2>
-            <ul>
-                <li><strong>Major:</strong> Software Engineering</li>
-                <li><strong>High School:</strong> Riverton High, Riverton Utah. 2022</li>
-                <li><strong>Current year at UVU:</strong> Sophomore</li>
-                <li><strong>Favorite ice cream:</strong> Coffee</li>
-            </ul>
+            </section>
 
-        </section>
+            <section>
+                <h2>My Five Favorite Books</h2>
+                <ol type="1">
+                    <li><em>Harry Potter</em>, <a href="https://www.jkrowling.com" target="_blank" class="hidden">JK Rowling</a></li>
+                    <li><em>Diary of a Whimpy Kid</em>, <a href="https://www.adlit.org/profile/jeff-kinney" target="_blank" class="hidden">Jeff Kinney</a></li> <!--I couldn't find an offical website for him, so I just put some biography-->
+                    <li><em>Marvel Comics: The Amazing Spider-Man</em>, <a href="https://therealstanlee.com" target="_blank" class="hidden">Stan Lee</a></li>
+                    <li><em>Minecraft: Essential Handbook</em>, <a href="https://minecraft.fandom.com/wiki/Minecraft_Books" target="_blank" class="hidden">Stepahnie Milton, Paul Soares Jr., Jordan Maron</a></li>
+                    <li><em>Goon with the Spoon</em>, <a href="https://snoopdogg.com" target="_blank" class="hidden">Snoop Dogg</a></li>
+                </ol>
+            </section>
 
-        <section>
-            <h2>My Five Favorite Books</h2>
-            <ol type="1">
-                <li><em>Harry Potter</em>, <a href="https://www.jkrowling.com" target="_blank" class="hidden">JK Rowling</a></li>
-                <li><em>Diary of a Whimpy Kid</em>, <a href="https://www.adlit.org/profile/jeff-kinney" target="_blank" class="hidden">Jeff Kinney</a></li> <!--I couldn't find an offical website for him, so I just put some biography-->
-                <li><em>Marvel Comics: The Amazing Spider-Man</em>, <a href="https://therealstanlee.com" target="_blank" class="hidden">Stan Lee</a></li>
-                <li><em>Minecraft: Essential Handbook</em>, <a href="https://minecraft.fandom.com/wiki/Minecraft_Books" target="_blank" class="hidden">Stepahnie Milton, Paul Soares Jr., Jordan Maron</a></li>
-                <li><em>Goon with the Spoon</em>, <a href="https://snoopdogg.com" target="_blank" class="hidden">Snoop Dogg</a></li>
-            </ol>
-        </section>
-
-        <section class="center">
-            <h2>Nature's Beauty</h2>
-            <p>
-                I wrote this haiku because I really enjoy nature. <br><br>
-                Sunset paints the sky,<br> Rustling leaves in gentle breeze,<br>Nature's lullaby.
-            </p>
-        </section>
+            <section>
+                <h2>Nature's Beauty</h2>
+                <p class="ptext">
+                <p>    
+                    I wrote this haiku because I really enjoy nature.
+                </p>
+                <p class="haiku">   
+                        Sunset paints the sky,<br>Rustling leaves in gentle breeze,<br> Nature's lullaby.
+                </p>
+            </section>
 
 
-        <section>
-            <h2>Personal Interests</h2>
-            <p>
-                My first hobby is going to the gym. In the future, I want to look bigger than the Rock, 
-                so I like to go to the gym. I have thought about taking roids, but have figured that is 
-                very unhealthy and "not the move." Anyways, I love going to the gym.
+            <section>
+                <h2>Personal Interests</h2>
+                <p>
+                    My first hobby is going to the gym. In the future, I want to look bigger than the Rock, 
+                    so I like to go to the gym. I have thought about taking roids, but have figured that is 
+                    very unhealthy and "not the move." Anyways, I love going to the gym.
 
-            </p>
+                </p>
 
-            <p>
-                Another hobby of mine is watching movies. I really like watching movies. I prefer to watch
-                them with other people because I don't have the attention span to finish a movie by myself.
-                I have the brain of an 8 year old, and need to have some sort of stimulation, so I only like 
-                watching action movies like Spider-Man. 
-            </p>
+                <p>
+                    Another hobby of mine is watching movies. I really like watching movies. I prefer to watch
+                    them with other people because I don't have the attention span to finish a movie by myself.
+                    I have the brain of an 8 year old, and need to have some sort of stimulation, so I only like 
+                    watching action movies like Spider-Man. 
+                </p>
 
-            <p>
-                My last hobby is playing Fortnite and Minecraft. I really love playing video games, 
-                and my favorite video games are Minecraft and Fornite.
-                I love playing with my friends. They suck at both Minecraft and Fortnite, 
-                so I carry them. They think they are better than me, but they drag me down.
-            </p>
-        </section>
+                <p>
+                    My last hobby is playing Fortnite and Minecraft. I really love playing video games, 
+                    and my favorite video games are Minecraft and Fornite.
+                    I love playing with my friends. They suck at both Minecraft and Fortnite, 
+                    so I carry them. They think they are better than me, but they drag me down.
+                </p>
+            </section>
 
-        <section>
-            <h2>My Class Schedule</h2>
-            <table width="100%">
-                <tr>
-                    <th></th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Online</th>
-                </tr>
+            <section>
+                <h2>My Class Schedule</h2>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Online</th>
+                    </tr>
 
-                <tr>
-                    <td>11:30</td>
-                    <td></td>
-                    <td rowspan="3" class="cell3">GEO 1010 Geology</td>
-                    <td></td>
-                    <td rowspan="3" class="cell3">GEO 1010 Geology</td>
-                    <td></td>
-                    <td rowspan="12" class="cell2">
-                        <ul>
-                            <li>GEO 1015 Geology Lab</li>
-                            <li>CS 2450 Software Engineering</li>
-                            <li>CS 2550 Web Programming</li>
-                        </ul>
-                </tr>
-                <tr>
-                    <td>12:00</td>
-                    <td></td>
-                    <td></td>
-                    <td rowspan="11" class="cell4">Goon Time &#128520;</td>
+                    <tr>
+                        <td>11:30</td>
+                        <td></td>
+                        <td rowspan="3" class="cell3">GEO 1010 Geology</td>
+                        <td></td>
+                        <td rowspan="3" class="cell3">GEO 1010 Geology</td>
+                        <td></td>
+                        <td rowspan="12" class="cell2">
+                            <ul>
+                                <li>GEO 1015 Geology Lab</li>
+                                <li>CS 2450 Software Engineering</li>
+                                <li>CS 2550 Web Programming</li>
+                            </ul>
+                    </tr>
+                    <tr>
+                        <td>12:00</td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="11" class="cell4">Goon Time &#128520;</td>
 
-                </tr>
-                <tr>
-                    <td>12:30</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>1:00</td>
-                    <td rowspan="3" class="cell1">CS 2600 Computer Networks</td>
-                    <td></td>
-                    <td rowspan="3" class="cell1">CS 2600 Computer Networks</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>1:30</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2:00</td>
-                    <td rowspan="4" class="cell5">Gym</td>
-                    <td rowspan="4" class="cell5">Gym</td>
-                </tr>
-                <tr>
-                    <td>2:30</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3:00</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3:30</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4:30</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1:00</td>
+                        <td rowspan="3" class="cell1">CS 2600 Computer Networks</td>
+                        <td></td>
+                        <td rowspan="3" class="cell1">CS 2600 Computer Networks</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1:30</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2:00</td>
+                        <td rowspan="4" class="cell5">Gym</td>
+                        <td rowspan="4" class="cell5">Gym</td>
+                    </tr>
+                    <tr>
+                        <td>2:30</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3:30</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
 
-            </table>
-        </section>
-
+                </table>
+            </section>
+        </div>
     </body>
 </html>
